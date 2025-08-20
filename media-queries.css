@@ -1,0 +1,281 @@
+/*TABLET*/
+@media (max-width: 1024px) {
+  /*NAV*/
+  header {
+    width: 90vw;
+  }
+
+  .nav-icone {
+    display: none;
+  }
+
+  nav {
+    padding: 5px 5px;
+  }
+
+  .nav-tablet {
+    display: inline;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+
+  .nav-links {
+    gap: 15px;
+  }
+  /*HOME*/
+
+  .texto-img {
+    width: 90%;
+    height: 42em;
+  }
+
+  /*SOBRE O EVENTO*/
+
+  #sobre-evento {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .sobre {
+    width: 90%;
+    padding: 60px 40px;
+  }
+
+  /*PROGRAMACAO*/
+  .programacao__container {
+    width: 90%;
+    gap: 20px;
+  }
+
+  .programacao__coluna01,
+  .programacao__coluna02 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .programacao__coluna02 {
+    margin-bottom: 70px;
+  }
+
+  /*PALESTRANTES*/
+
+  /*ENCERRAMENTO*/
+  .show-final {
+    gap: 20px;
+  }
+
+  .card-text {
+    font-size: 1.2rem;
+  }
+
+  /*DEPOIMENTOS*/
+  .depoimentos__cards {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .depoimentos__card {
+    padding: 40px;
+  }
+  /*INSCREVA-SE*/
+
+  .container-inscricoes {
+    width: 80%;
+  }
+
+  .conteudo-inscricao {
+    flex-direction: column;
+  }
+
+  .imagem-evento {
+    width: 55%;
+  }
+
+  .formulario input {
+    padding: 5px;
+  }
+
+  .formulario {
+    width: 100%;
+  }
+
+
+
+  /*FALE CONOSCO*/
+
+   .container-fale {
+    padding: 0;
+    margin: 60px auto;
+  }
+  .contato {
+    align-items: end;
+  }
+  .texto1 h2 {
+    margin: 10px;
+  }
+
+  .contato-info {
+    padding: 0 10px;
+    width: 100%;
+  }
+
+
+}
+
+/*MOBILE*/
+@media (max-width: 768px) {
+  /*NAV*/
+  header {
+    display: flex;
+  }
+  nav {
+    display: none;
+  }
+
+  .nav-mobile a {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .nav-mobile {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-links-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    text-align: center;
+    background-color: var(--cor-destaque);
+    padding: 20px 0;
+    border-radius: 10px;
+  }
+
+  .nav-links-mobile a {
+    text-decoration: none;
+    font-family: var(--font-principal);
+    color: white;
+    padding: 10px 0;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .nav-links-mobile a:hover {
+    background-color: rgba(255, 255, 255, 0.71);
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--cor-destaque);
+  }
+
+  /*HOME*/
+
+  .texto-img {
+    width: 85%;
+    height: 42em;
+  }
+
+  /*SOBRE O EVENTO*/
+  #sobre-evento {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .sobre {
+    width: 90%;
+    padding: 60px 40px;
+  }
+
+  /*PALESTRANTES*/
+
+  .programacao__container {
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+  }
+
+  .programacao__coluna01,
+  .programacao__coluna02 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .programacao__coluna02 {
+    margin-bottom: 70px;
+  }
+
+  /*ENCERRAMENTO*/
+
+  .show-final {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .show-final img {
+    width: 100%;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+  /*DEPOIMENTOS*/
+  .depoimentos__cards {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  /*INSCREVA-SE*/
+
+  .container-inscricoes {
+    width: 80%;
+  }
+
+  .conteudo-inscricao {
+    flex-direction: column;
+  }
+
+  .imagem-evento {
+    width: 65%;
+  }
+
+  .formulario input {
+    padding: 4px;
+  }
+
+  .formulario {
+    width: 60%;
+  }
+
+  /*QUEM SOMOS*/
+
+  #quem-somos {
+    height: auto;
+  }
+
+  .full-card {
+    flex-direction: column;
+  }
+
+  /*FALE CONOSCO*/
+  .container-fale {
+    padding: 0;
+    margin: 20px auto;
+  }
+  .contato {
+    align-items: end;
+  }
+  .texto1 h2 {
+    margin: 10px;
+  }
+
+  .contato-info {
+    padding: 0 10px;
+    width: 100%;
+  }
+}
